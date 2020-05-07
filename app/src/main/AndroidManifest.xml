@@ -19,6 +19,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".ui.ItemDescriptionActivity"></activity>
+        <activity android:name=".ui.MapActivity" />
     </application>
 
 </manifest>
