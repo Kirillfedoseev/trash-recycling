@@ -1,4 +1,4 @@
-package com.app.studentsproject.data.entity
+package com.innopolis.trashrecycle.data.entity
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

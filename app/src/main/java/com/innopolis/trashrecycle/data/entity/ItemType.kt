@@ -1,4 +1,4 @@
-package com.app.studentsproject.data.entity
+package com.innopolis.trashrecycle.data.entity
 
 enum class ItemType {
     BATTERY,

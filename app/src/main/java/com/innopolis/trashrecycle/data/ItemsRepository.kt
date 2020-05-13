@@ -1,7 +1,7 @@
-package com.app.studentsproject.data
+package com.innopolis.trashrecycle.data
 
-import com.app.studentsproject.data.entity.ItemType
-import com.app.studentsproject.data.entity.RecycleItem
+import com.innopolis.trashrecycle.data.entity.ItemType
+import com.innopolis.trashrecycle.data.entity.RecycleItem
 
 class ItemsRepository {
     private val basicItems = arrayListOf( RecycleItem("Пластик", type = ItemType.PLASTIC),
