@@ -19,10 +19,6 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".ui.ItemDescriptionActivity"></activity>
-        <activity android:name=".ui.QuestionActivity" />
     </application>
 
-    <meta-data
-        android:name="preloaded_fonts"
-        android:resource="@array/preloaded_fonts" />
 </manifest>
