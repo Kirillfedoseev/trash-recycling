@@ -1,4 +1,4 @@
-package com.app.studentsproject.di
+package com.innopolis.trashrecycle.di
 
 
 import org.koin.dsl.module

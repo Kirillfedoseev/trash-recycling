@@ -1,7 +1,7 @@
 package com.innopolis.trashrecycle
 
 import android.app.Application
-import com.app.studentsproject.di.createAppModule
+import com.innopolis.trashrecycle.di.createAppModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
