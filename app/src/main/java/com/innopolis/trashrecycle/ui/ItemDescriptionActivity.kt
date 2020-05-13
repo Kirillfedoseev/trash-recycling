@@ -1,5 +1,6 @@
 package com.innopolis.trashrecycle.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.innopolis.trashrecycle.R
@@ -19,6 +20,8 @@ class ItemDescriptionActivity : AppCompatActivity() {
     }
     private fun initListeners() {
         showOnMapButton.setOnClickListener {
+            val mapIntent = Intent(this, MapActivity::class.java)
+            startActivity(mapIntent)
         }
     }
     private fun initInfo() {
