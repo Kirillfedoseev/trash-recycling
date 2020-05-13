@@ -18,8 +18,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        
         <activity android:name=".ui.ItemDescriptionActivity"></activity>
         <activity android:name=".ui.QuestionActivity" />
+        <activity android:name=".ui.MapActivity" />
+        
     </application>
 
     <meta-data
