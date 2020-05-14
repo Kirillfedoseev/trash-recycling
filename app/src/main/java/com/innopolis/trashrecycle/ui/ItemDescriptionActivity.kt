@@ -41,7 +41,7 @@ class ItemDescriptionActivity : AppCompatActivity() {
                     sign.setImageResource(resID)
                 }
                 titleItem.text = recycleItem.name
-//                description.text = mainVM.getDescriptionForType(recycleItem.type)
+                description.text = mainVM.getDescriptionForType(recycleItem.type)
             }
         }
     }
