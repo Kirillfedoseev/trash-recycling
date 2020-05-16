@@ -6,11 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.innopolis.trashrecycle.R
-import com.innopolis.trashrecycle.data.entity.ItemType
 import com.innopolis.trashrecycle.data.entity.RecycleItem
 import com.innopolis.trashrecycle.presentation.MainViewModel
 import com.innopolis.trashrecycle.ui.list.ItemsAdapter
-import com.innopolis.trashrecycle.ui.ItemDescriptionActivity
 import com.mancj.materialsearchbar.MaterialSearchBar
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.viewmodel.ext.android.viewModel
